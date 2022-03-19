@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
 	
-	int a,b, pil;
+	int a,b, pil;	// pendeklarasion tipe data dan variabel
 	float hasil;
 	string operasi;
 	
