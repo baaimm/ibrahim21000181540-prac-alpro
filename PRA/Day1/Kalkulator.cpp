@@ -5,8 +5,8 @@ using namespace std;
 int main(){
 	
 	int a,b, pil;	// pendeklarasion tipe data dan variabel
-	float hasil;
-	string operasi;
+	float hasil;	// penggunaan float digunakan untuk menampung angka berupa pecahan 
+	string operasi;	
 	
 	cout<<"|===== KALKULATOR SEDERHANA =====|"<<endl;
 	cout<<"|1. Penjumlahan\t\t\t |"<<endl;
@@ -16,7 +16,7 @@ int main(){
 	cout<<"|================================|";
 	cout<<endl;
 	
-	cout<<"Masukan Pilihan Anda : ";
+	cout<<"Silahkan Masukan Pilihan Anda : ";
 	cin>>pil;
 	cout<<"Masukan Bil. Pertama : ";
 	cin>>a;
@@ -27,17 +27,17 @@ int main(){
 	        case 1 : hasil=a+b;
 			operasi='+';
 			break;
-		case 2 : hasil=a-b;
+			case 2 : hasil=a-b;
 			operasi='-';
 			break;
-		case 3 : hasil=a*b;
+			case 3 : hasil=a*b;
 			operasi='*';
 			break;
-		case 4 : hasil=a/b;
+			case 4 : hasil=a/b;
 			operasi='/';
 			break;
-		default :
-			cout<<"Pilihan anda salah !!"<<endl;
+			default :
+			cout<<"MASUKKAN PILIHAN YANG BENAR !!"<<endl;
 	}
 	cout<<"-----------------------------"<<endl;
 	cout<<"    "<<a<<operasi<<b<<"="<<hasil<<endl;
